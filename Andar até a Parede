@@ -1,0 +1,16 @@
+#map:openArea.map
+paintwhite
+repeat(){
+    repeatwhile(frontisclear){
+        forward   
+    }
+    if(frontisobstacle){
+        right(2)   
+    }
+    if(frontiswhite){
+        paintblack   
+    }
+    if(frontisblack){
+        paintwhite   
+    }
+}
